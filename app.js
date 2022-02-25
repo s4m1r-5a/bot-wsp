@@ -148,7 +148,7 @@ const withSession = () => {
     client = new Client({
         session: sessionData,
         puppeteer: {
-            headless: false,
+            //headless: false,
             args: [
                 '--no-sandbox'
             ],
@@ -175,7 +175,7 @@ const withOutSession = () => {
 
     client = new Client({
         puppeteer: {
-            headless: false,
+            //headless: false,
             args: [
                 '--no-sandbox'
             ],
