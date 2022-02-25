@@ -1,0 +1,11 @@
+/node_modules
+/node_modules/*
+session.json
+chats/*
+!chats/.gitkeep
+media/*
+!media/.gitkeep
+mediaSend/*
+!mediaSend/.gitkeep
+!mediaSend/PTT-20220223-WA0000.opus
+.env
